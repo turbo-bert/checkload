@@ -33,13 +33,17 @@ A typical checkload.txt file would be
 
 # Supported Platforms and Dependencies
 
-  * Windows 10 x64
-  * MacOS 12.4+ (I didn't check older versions)
+  * Windows 10 x64 (fpc 3.2.2, laz 2.2.0)
+  * MacOS 12.4+ (fpc 3.2.2, laz 2.2.0)
   * CHECKLOAD compiles with fpc 3.2.2 under probably any Linux
 
 # Download
 
-Remember, no warranty. Find a build for Windows64 here, because it is useful.
+Find a build for Windows 64 https://github.com/turbo-bert/checkload/releases/download/v0.1.0/checkload.exe
+
+There is also a MacOS (built on 12.4) executable under releases.
+
+No warranties for anything. Binaries are un-signed.
 
 # FAQ
 
