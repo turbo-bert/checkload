@@ -366,9 +366,13 @@ begin
 	 ReadLn(f, file_line);
 	 ReadLn(f, url_line);
 	 ReadLn(f, dummy_line);
+	 WriteLn(g, '@echo ** File Download *************************************');
 	 WriteLn(g, 'curl -L -o "checkload_'+file_line+'" "'+url_line+'"');
-	 WriteLn(g, 'certutil -hashfile "'+file_line+'" sha512');
+	 WriteLn(g, '@echo ** Hash Definition ***********************************');
 	 WriteLn(g, '@echo '+hash_line);
+	 WriteLn(g, '@echo ** Hash Actual Download ******************************');
+	 WriteLn(g, 'certutil -hashfile "'+file_line+'" sha512');
+	 WriteLn(g, '@echo ******************************************************');
 	 WriteLn(g, '');
       end;
    CloseFile(f);
