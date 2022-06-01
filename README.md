@@ -91,6 +91,9 @@ Why don't you use the tfphttpclient for downloading?
 Why the h*** FreePascal?
 - Because it is very easy to create compact exe files with almost no runtime dependencies.
 
+Do you know that you write terrible pascal code?
+- Yes.
+
 # License
 
 CHECKLOAD is free software. Use it for whatever you like.
