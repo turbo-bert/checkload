@@ -39,7 +39,11 @@ A typical checkload.txt file would be
 
 # Download
 
-Find a build for Windows 64 https://github.com/turbo-bert/checkload/releases/download/v0.1.0/checkload.exe
+Find a build for Windows 64 https://github.com/turbo-bert/checkload/releases/download/v1.0.1/checkload.exe
+
+Or if you're in in need, do this in a cmd window:
+
+    curl -L -O "https://github.com/turbo-bert/checkload/releases/download/v1.0.1/checkload.exe"
 
 There is also a MacOS (built on 12.4) executable under releases.
 
