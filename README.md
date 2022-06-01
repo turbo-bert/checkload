@@ -35,7 +35,7 @@ A typical checkload.txt file would be
 
   * Windows 10 x64 (fpc 3.2.2, laz 2.2.0)
   * MacOS 12.4+ (fpc 3.2.2, laz 2.2.0)
-  * CHECKLOAD compiles with fpc 3.2.2 under probably any Linux
+  * CHECKLOAD compiles with fpc 3.2.2 under probably any Linux (including Raspberry Pi)
 
 # Download
 
