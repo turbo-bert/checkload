@@ -71,7 +71,7 @@ Assume you have spawned an empty Windows 10/2022 system:
     curl -L -O "https://raw.githubusercontent.com/turbo-bert/checkload/main/presets/windows-developer/checkload.txt"
     checkload run
 
-If you want to avoid running the binary take alook at the alternative rendered BAT file at https://raw.githubusercontent.com/turbo-bert/checkload/main/presets/windows-developer/no-checkload.bat
+If you want to avoid running the binary take a look at the alternative rendered BAT file at https://raw.githubusercontent.com/turbo-bert/checkload/main/presets/windows-developer/no-checkload.bat
 
 # FAQ
 
