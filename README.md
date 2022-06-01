@@ -57,6 +57,16 @@ Or if you're in in need, do this in a Terminal window:
 
 No warranties for anything. Binaries are un-signed.
 
+# Example Use Case
+
+## Windows Freepascal Setup
+
+Assume you have spawned an empty Windows 10/2022 system:
+
+    curl -L -O "https://github.com/turbo-bert/checkload/releases/download/v1.0.1/checkload.exe"
+    curl -L -O "https://raw.githubusercontent.com/turbo-bert/checkload/main/presets/windows-developer/checkload.txt"
+    checkload run
+
 # FAQ
 
 Why don't you use the tfphttpclient for downloading?
