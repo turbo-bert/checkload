@@ -2,11 +2,11 @@
 
     TL;DR
 
-    Use URLs from a TXT file to download and hash (sha512) files on windows 10+.
+    Use URLs from a TXT file to download and hash (SHA-512) files on windows 10+.
 
-`checkload` helps to use curl for downloading a batch of file from the internet. After downloading it checks the files contents against a given SHA512 checksum. This is a very simple task if you're using MacOS or Linux. But for Windows this can be quite a hassle.
+`checkload` helps to use curl for downloading a batch of file from the internet. After downloading it checks the files contents against a given SHA-512 checksum. This is a very simple task if you're using MacOS or Linux. But for Windows this can be quite a hassle.
 
-`checkload` brings its own SHA512 from Openssl/Freepascal and uses curl (yes, from Windows 10 you have this) from your PATH.
+`checkload` brings its own SHA-512 from Openssl/Freepascal and uses curl (yes, from Windows 10 you have this) from your PATH.
 
 You can define a checkload.txt file containing always tuples of 4-lines just like:
 
@@ -16,15 +16,15 @@ You can define a checkload.txt file containing always tuples of 4-lines just lik
     AN-EMPTY-LINE-BECAUSE-IT-IS-NICE
     ...
 
-For security reasons, the files will be downloaded to CWD/.tmpfile then hashed und if valid renamed to the given name *AND* a prefix checkload_ right in front.
+For security reasons, the files will be downloaded to `$CWD/.tmpfile` then hashed und if valid renamed to the given name *AND* a prefix `checkload_` right in front.
 
-Remember: checkload.txt files must originate trustworthy sources!
+*Remember:* `checkload.txt` files must originate a trustworthy source! Parts from it will run in your terminal!
 
 It is a little bit like pipenv. But just a little bit.
 
 # File Format
 
-A typical checkload.txt file would be
+A typical `checkload.txt` file would be
 
     01250adbda3826003d3b1233a2b96657f63b00e6a7f879ceb857d20f74d687e679db875355c3f25e5aa2ca45f6185089bd530de9320f94bbeaf1ac61dfb00b4f
     tcmd1000x64.exe
@@ -53,6 +53,10 @@ Or if you're in in need, do this in a cmd window:
 
     curl -L -O "https://github.com/turbo-bert/checkload/releases/download/v1.0.1/checkload.exe"
 
+## MacOS M1
+
+Sorry! No hardware available. See the Paypal link beneath section `Contribute` ;)
+
 ## MacOS Intel
 
 There is also a MacOS Intel (built on 12.4) executable https://github.com/turbo-bert/checkload/releases/download/v1.0.1/checkload
@@ -72,6 +76,10 @@ Assume you have spawned an empty Windows 10/2022 system:
     curl -L -O "https://github.com/turbo-bert/checkload/releases/download/v1.0.1/checkload.exe"
     curl -L -O "https://raw.githubusercontent.com/turbo-bert/checkload/main/presets/windows-developer/checkload.txt"
     checkload run
+
+To see more progress updates you can also run
+
+    checkload run -v
 
 If you want to avoid running the binary take a look at the alternative rendered BAT file at https://raw.githubusercontent.com/turbo-bert/checkload/main/presets/windows-developer/no-checkload.bat
 
