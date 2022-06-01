@@ -2,7 +2,7 @@
 
     TL;DR
 
-    CHECKLOAD can use a URL list from a TXT file to download and hash (SHA-512) stuff easily on windows with curl.
+    Use URLs from a TXT file to download and hash (sha512) files on windows 10+.
 
 CHECKLOAD helps to use curl for downloading a batch of file from the internet. After downloading it checks the files contents against a given SHA512 checksum. This is a very simple task if you're using MacOS or Linux. But for Windows this can be quite a hassle.
 
