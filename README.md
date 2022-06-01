@@ -1,12 +1,12 @@
-# What is CHECKLOAD
+# What is Checkload
 
     TL;DR
 
     Use URLs from a TXT file to download and hash (sha512) files on windows 10+.
 
-CHECKLOAD helps to use curl for downloading a batch of file from the internet. After downloading it checks the files contents against a given SHA512 checksum. This is a very simple task if you're using MacOS or Linux. But for Windows this can be quite a hassle.
+`checkload` helps to use curl for downloading a batch of file from the internet. After downloading it checks the files contents against a given SHA512 checksum. This is a very simple task if you're using MacOS or Linux. But for Windows this can be quite a hassle.
 
-CHECKLOAD brings its own SHA512 from Openssl/Freepascal and uses curl (yes, from Windows 10 you have this) from your PATH.
+`checkload` brings its own SHA512 from Openssl/Freepascal and uses curl (yes, from Windows 10 you have this) from your PATH.
 
 You can define a checkload.txt file containing always tuples of 4-lines just like:
 
