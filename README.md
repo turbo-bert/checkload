@@ -32,6 +32,14 @@ It is a lot of work when you try to work in a reproducable way with Windows. I d
 
 Just like `macports` or `brew` or `nuget` or whatever I might use `checkload` in the future for more automation stuff supporting the daily development tasks for a Windows environment.
 
+#### Download Presets
+
+Collect some task-related presets like the `windows-developer-pascal` or similar.
+
+#### Setup Knowledge Base
+
+Make it easier for anybody to install stuff by collecting the brief information that is necessary to run a silent/unattended/headless installation of the software that can be downloaded with the presets.
+
 # File Format
 
 A typical `checkload.txt` file would be
