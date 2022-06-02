@@ -1,3 +1,7 @@
+ebc2a0648facbc7f8c2dca4d69d49fb644224ee3a9a7f257ee08a05be45bbcb93b9d52625f0d392c1c7024149c9ab17efc52d9422204a3c77fa54b9a1b0eafe0
+vs-code-1.67.0-install-user.exe
+https://update.code.visualstudio.com/1.67.0/win32-x64-user/stable
+
 01250adbda3826003d3b1233a2b96657f63b00e6a7f879ceb857d20f74d687e679db875355c3f25e5aa2ca45f6185089bd530de9320f94bbeaf1ac61dfb00b4f
 tcmd1000x64.exe
 https://totalcommander.ch/win/tcmd1000x64.exe
