@@ -43,6 +43,13 @@ Of course you need the command line client of `curl` in your PATH.
   * MacOS 12.4+ (fpc 3.2.2, laz 2.2.0)
   * CHECKLOAD compiles with fpc 3.2.2 under probably any Linux (including Raspberry Pi)
 
+You will always need
+
+    libeay32.dll
+    ssleay32.dll
+
+from the `deps` folder. Unless you have installed `Lazarus` or `fpc` anyways.
+
 # Download
 
 ## Windows 64 Bit
