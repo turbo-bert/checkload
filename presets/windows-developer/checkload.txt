@@ -25,3 +25,8 @@ https://download.mozilla.org/?product=firefox-latest&os=win64&lang=en-US
 be4a517ea178b988931548bf2cc7cdda2fc5a66da5ff82e4ed60bacd1854a79ea26bed41138a65d6392fca1e22517f78d5053bd09bb98a6b4c6bad1e3b6c28f9
 inno-setup.exe
 https://jrsoftware.org/download.php/is.exe?site=2
+
+9456b9b28b409028bc9766c52ee551d0d1c53e547a0bb96bb02ed998f149433bc8d222a39624190f4dea5f84602c188b34c61f249df4f7c6eb6a57b2b2e11c58
+git.inf
+https://raw.githubusercontent.com/turbo-bert/checkload/main/presets/windows-developer/res/git.inf
+
