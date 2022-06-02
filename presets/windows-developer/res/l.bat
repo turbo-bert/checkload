@@ -10,4 +10,4 @@ mkdir C:\tmp\bin
 
 del /F C:\tmp\bin\e.bat
 
-echo "C:\Program Files\Emacs\emacs-28.1\bin\emacs" -nw %1 >C:\tmp\bin\e.bat
+echo "C:\Program Files\Emacs\emacs-28.1\bin\emacs" -nw %%1 >C:\tmp\bin\e.bat
