@@ -1,0 +1,20 @@
+* TODO VBoxManage Windows Installation
+
+#+begin_example
+
+N=s3
+vbm createmedium disk --filename c.vdi --size 200000 --format vdi --variant Standard
+vbm createvm --name $N --ostype "Other Windows (64-bit)" --register
+vbm modifyvm        $N --audio none
+vbm modifyvm        $N --cpus 8
+vbm modifyvm        $N --memory 8192
+vbm storagectl      $N --name SATACtl1 --add sata --portcount 2 --hostiocache on --bootable on
+vbm storageattach   $N --storagectl SATACtl1 --device 0 --port 0 --type hdd --medium c.vdi
+vbm modifyvm        $N --nic1 nat
+vbm modifyvm        $N --vram 16
+
+vbm startvm s3 --type separate
+vbm startvm s3 --type headless
+
+vbm controlvm $N natpf1 ssh19002,tcp,127.0.0.1,19002,,22
+#+end_example
