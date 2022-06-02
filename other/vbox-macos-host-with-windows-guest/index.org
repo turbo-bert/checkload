@@ -1,5 +1,6 @@
 * TODO VBoxManage Windows Installation
 
+I have a path'ed symlink =vbm= to =/Applications/VirtualBox.app/Contents/MacOS/VBoxManage=.
 #+begin_example
 
 N=s3
@@ -12,6 +13,8 @@ vbm storagectl      $N --name SATACtl1 --add sata --portcount 2 --hostiocache on
 vbm storageattach   $N --storagectl SATACtl1 --device 0 --port 0 --type hdd --medium c.vdi
 vbm modifyvm        $N --nic1 nat
 vbm modifyvm        $N --vram 16
+
+vbm storageattach   $N --storagectl SATACtl1 --device 0 --port 1 --type dvddrive --medium ".../SERVER_EVAL_x64FRE_en-us.iso"
 
 vbm startvm s3 --type separate
 vbm startvm s3 --type headless

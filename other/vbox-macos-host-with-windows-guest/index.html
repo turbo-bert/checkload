@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2022-06-02 Thu 15:41 -->
+<!-- 2022-06-02 Thu 15:44 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>&lrm;</title>
@@ -200,14 +200,17 @@
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents" role="doc-toc">
 <ul>
-<li><a href="#org79da800">1. <span class="todo TODO">TODO</span> VBoxManage Windows Installation</a></li>
+<li><a href="#org5988e2a">1. <span class="todo TODO">TODO</span> VBoxManage Windows Installation</a></li>
 </ul>
 </div>
 </div>
-<div id="outline-container-org79da800" class="outline-2">
-<h2 id="org79da800"><span class="section-number-2">1.</span> <span class="todo TODO">TODO</span> VBoxManage Windows Installation</h2>
+<div id="outline-container-org5988e2a" class="outline-2">
+<h2 id="org5988e2a"><span class="section-number-2">1.</span> <span class="todo TODO">TODO</span> VBoxManage Windows Installation</h2>
 <div class="outline-text-2" id="text-1">
-<pre class="example" id="org5e58e65">
+<p>
+I have a path'ed symlink <code>vbm</code> to <code>/Applications/VirtualBox.app/Contents/MacOS/VBoxManage</code>.
+</p>
+<pre class="example" id="org9352d4a">
 
 N=s3
 vbm createmedium disk --filename c.vdi --size 200000 --format vdi --variant Standard
@@ -220,6 +223,8 @@ vbm storageattach   $N --storagectl SATACtl1 --device 0 --port 0 --type hdd --me
 vbm modifyvm        $N --nic1 nat
 vbm modifyvm        $N --vram 16
 
+vbm storageattach   $N --storagectl SATACtl1 --device 0 --port 1 --type dvddrive --medium ".../SERVER_EVAL_x64FRE_en-us.iso"
+
 vbm startvm s3 --type separate
 vbm startvm s3 --type headless
 
@@ -230,7 +235,7 @@ vbm controlvm $N natpf1 ssh19002,tcp,127.0.0.1,19002,,22
 </div>
 <div id="postamble" class="status">
 <p class="author">Author: Robert Degen</p>
-<p class="date">Created: 2022-06-02 Thu 15:41</p>
+<p class="date">Created: 2022-06-02 Thu 15:44</p>
 <p class="validation"><a href="https://validator.w3.org/check?uri=referer">Validate</a></p>
 </div>
 </body>
