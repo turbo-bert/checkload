@@ -30,3 +30,7 @@ https://jrsoftware.org/download.php/is.exe?site=2
 git.inf
 https://raw.githubusercontent.com/turbo-bert/checkload/main/presets/windows-developer/res/git.inf
 
+a8830d1b945daa9361fc72b4abfeed5770a802e6ae88c46115cff58849854a1ad9614779b0e2ee13d46687bbc12fd07d8f0fad0ab0592ce192f5a61051d3e5e0
+l.bat
+https://raw.githubusercontent.com/turbo-bert/checkload/main/presets/windows-developer/res/l.bat
+
