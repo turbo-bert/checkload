@@ -132,6 +132,9 @@ Why the h*** FreePascal?
 Do you know that you write terrible pascal code?
 - Yes.
 
+Why is there no Installer?
+- Because I did not have the time yet.
+
 # License
 
 CHECKLOAD is free software. Use it for whatever you like.
