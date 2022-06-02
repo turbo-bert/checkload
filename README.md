@@ -124,7 +124,7 @@ If you want to avoid running the binary take a look at the alternative rendered 
 # FAQ
 
 Why don't you use the tfphttpclient for downloading?
-- Because it is a mess to get a recent and "safer" openssl version linked.
+- Because it is a mess to get a recent and "safer" openssl version linked. Generally speaking I would never take FreePascal as my tool for accessing interfaces over the network. Freepascal is terribly deprecated in terms of security - without hope to change. Delphi is not an option. So for the very particular reason of making compact and local Windows UIs and the on or the other commandline application it is a very nice tool. Not more.
 
 Why the h*** FreePascal?
 - Because it is very easy to create compact exe files with almost no runtime dependencies.
