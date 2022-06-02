@@ -81,7 +81,9 @@ No warranties for anything. Binaries are un-signed.
 Assume you have spawned an empty Windows 10/2022 system:
 
     curl -L -O "https://github.com/turbo-bert/checkload/releases/download/v1.0.1/checkload.exe"
+
     curl -L -O "https://raw.githubusercontent.com/turbo-bert/checkload/main/presets/windows-developer/checkload.txt"
+
     checkload run
 
 To see more progress updates you can also run
