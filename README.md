@@ -40,6 +40,10 @@ Collect some task-related presets like the `windows-developer-pascal` or similar
 
 Make it easier for anybody to install stuff by collecting the brief information that is necessary to run a silent/unattended/headless installation of the software that can be downloaded with the presets.
 
+### Lower the Access-Barrier for Newbies
+
+When you are totally new to software development you might find some interesting stuff to learn here.
+
 # File Format
 
 A typical `checkload.txt` file would be
