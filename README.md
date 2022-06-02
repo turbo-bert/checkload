@@ -22,6 +22,16 @@ For security reasons, the files will be downloaded to `$CWD/.tmpfile` then hashe
 
 It is a little bit like pipenv. But just a little bit.
 
+## Goals
+
+### Time is Valuable
+
+It is a lot of work when you try to work in a reproducable way with Windows. I do not prefer to work with disk images and snapshots. I want a simple way to collect things via HTTP and it has to be fast. And there must be some way to check the contents. These are very basic but perfectly solved tasks for a unix-like operating system. For windows this is really not that easy.
+
+### Automation Sub-Goals
+
+Just like `macports` or `brew` or `nuget` or whatever I might use `checkload` in the future for more automation stuff supporting the daily development tasks for a Windows environment.
+
 # File Format
 
 A typical `checkload.txt` file would be
