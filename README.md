@@ -1,4 +1,4 @@
-# What is Checkload
+# Checkload
 
     TL;DR
 
