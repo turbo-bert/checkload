@@ -34,3 +34,7 @@ a8830d1b945daa9361fc72b4abfeed5770a802e6ae88c46115cff58849854a1ad9614779b0e2ee13
 l.bat
 https://raw.githubusercontent.com/turbo-bert/checkload/main/presets/windows-developer/res/l.bat
 
+43c11684f135fbe5f2baed01fa27244de33f6207124d04cd3104cef9cf14c1115c04e0f43974c89c891d77c01c9eebf80199fe599b5493178061022e8226d692
+e.bat
+https://raw.githubusercontent.com/turbo-bert/checkload/main/presets/windows-developer/res/e.bat
+
