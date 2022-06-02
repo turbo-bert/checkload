@@ -8,4 +8,6 @@ set PATH=C:\tmp\bin;C:\lazarus\fpc\3.2.2\bin\x86_64-win64;%PATH%
 mkdir C:\tmp
 mkdir C:\tmp\bin
 
+del /F C:\tmp\bin\e.bat
+
 echo "C:\Program Files\Emacs\emacs-28.1\bin\emacs" -nw %1 >C:\tmp\bin\e.bat
