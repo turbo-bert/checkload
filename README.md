@@ -109,9 +109,17 @@ Step-1:
 
 Step-2:
 
-    curl -L -O "https://raw.githubusercontent.com/turbo-bert/checkload/main/presets/windows-developer/checkload.txt"
+    curl -L -O "https://github.com/turbo-bert/checkload/releases/download/v1.0.1/ssleay32.dll"
 
 Step-3:
+
+    curl -L -O "https://github.com/turbo-bert/checkload/releases/download/v1.0.1/libeay32.dll"
+
+Step-4:
+
+    curl -L -O "https://raw.githubusercontent.com/turbo-bert/checkload/main/presets/windows-developer/checkload.txt"
+
+Step-5:
 
     checkload run
 
