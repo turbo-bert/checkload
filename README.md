@@ -2,7 +2,7 @@
 
     TL;DR
 
-    Use URLs from a TXT file to download and hash (SHA-512) files on windows 10+.
+    Quickly download and hash files from an URL list in a textfile on modern versions of Windows.
 
 `checkload` helps to use curl for downloading a batch of file from the internet. After downloading it checks the files contents against a given SHA-512 checksum. This is a very simple task if you're using MacOS or Linux. But for Windows this can be quite a hassle.
 
