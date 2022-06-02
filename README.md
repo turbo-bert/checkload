@@ -141,4 +141,4 @@ CHECKLOAD is free software. Use it for whatever you like.
 
 # Contribute/Feedback
 
-You think this is actually useful? You want to contribute or give-away money? Or you have an idea/feature you'd like to see? Create an issue or send money. https://www.paypal.me/turbobert82?country.x=DE&locale.x=de_DE
+You think this is actually useful? You want to contribute or give-away money? Or you have an idea/feature you'd like to see? Contact me (NOgit-hub-turbo-bertSPAM@mailbox.org without the upper case chars) or send money. https://www.paypal.me/turbobert82?country.x=DE&locale.x=de_DE
